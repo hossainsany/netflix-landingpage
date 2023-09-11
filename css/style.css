@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 img {
     width: 100%;
@@ -42,7 +42,7 @@ header::before {
     width: 100%;
     top: 0;
     left: 0;
-    content: "";
+    content: '';
     background-color: rgba(0, 0, 0, 0.75);
     z-index: -1;
 }
@@ -78,9 +78,7 @@ nav {
     text-decoration: none;
     display: inline-block;
     border-radius: 3px;
-}
-.signin-btn:hover {
-    background-color: #f40612;
+    pointer-events: none;
 }
 .menu ul {
     display: flex;
@@ -126,10 +124,6 @@ nav {
     border-radius: 3px;
     color: #fff;
     font-size: 30px;
-    cursor: pointer;
-}
-.header-text button:hover {
-    background-color: #f40612;
 }
 
 section .container {
@@ -149,7 +143,7 @@ section .container {
     width: 100%;
     top: -9px;
     left: 0;
-    content: "";
+    content: '';
     z-index: -1;
     display: flex;
     justify-content: center;
@@ -221,7 +215,7 @@ section .container {
     text-align: left;
 }
 .accordion-btn::after {
-    content: "+";
+    content: '+';
     float: right;
     transform: scale(1.5);
 }
